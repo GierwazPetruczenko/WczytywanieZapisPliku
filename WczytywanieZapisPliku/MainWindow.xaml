@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WczytywanieZapisPliku"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Prosty Edytor Tekstowy" Height="350" Width="525">
+    <Grid Margin="1,0,-100,-47">
+        <TextBox x:Name="PoleTekstowe" HorizontalAlignment="Left" Height="145" Margin="10,84,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="198"/>
+        <Button x:Name="OpenBTN" Content="Otwórz plik" HorizontalAlignment="Left" Margin="271,84,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.191,-1.655" Click="OpenBTN_Click"/>
+        <Button x:Name="SaveBTN" Content="ZapiszPlik" HorizontalAlignment="Left" Margin="271,123,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.431,-0.386" Click="SaveBTN_Click"/>
+
     </Grid>
 </Window>
